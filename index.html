@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica HTML</title>
+    <style>
+        table, tr, td, th {
+            border: 1px solid rgb(49, 4, 4);
+            border-collapse: collapse;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Titulo de practica <a href="clase0516.html">HTML</a>
+        </h1>
+
+        <ul>
+            <a href="https://presencial.ucc.edu.ar/" target="_blank">
+                <li>
+                    Home
+                </li>
+            </a>
+            <li>
+                Contacto
+            </li>
+            <li>
+                Informacion
+            </li>
+
+            <li>
+                <a href="clase0509.html" target="_self">Clase 09/05</a>
+            </li>
+        </ul>
+
+        <hr>
+
+    </header>
+
+
+    <section>
+        <br>
+        <p>
+            HTML, siglas en inglés de HyperText Markup Language (‘lenguaje de marcado de hipertexto’), <br>
+            hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que <br>
+            sirve de referencia del software que conecta con la elaboración de páginas web en sus dife<br>
+        </p>
+        <br>
+        <hr>
+        <br>
+        <img src="Imagenes/barco.jpg" alt="barco" width="204" height="126">
+        <hr>
+        <br>
+        <video controls height="315" width="560">
+            <source src="Videos/clase.mp4">
+        </video>
+        <hr>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2IU7zaot30s" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+        <hr>
+        <br>
+
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>DNI</th>
+            </tr>
+
+            <tr>
+                <td>Santiago</td>
+                <td>Rossi</td>
+                <td>24303456</td>
+            </tr>
+
+            <tr>
+                <td>Nicolas</td>
+                <td>Gomez</td>
+                <td>450408875</td>
+            </tr>
+
+            <tr>
+                <td>Alejandro</td>
+                <td>Etzio</td>
+                <td>89776333</td>
+            </tr>
+
+            <tr>
+                <td>Marcos</td>
+                <td>Rossi</td>
+                <td>22233342</td>
+            </tr>
+
+            <tr>
+                <td>Luca</td>
+                <td>Kaneshiro</td>
+                <td>69420696</td>
+            </tr>
+        </table>
+        <br>
+        <hr>
+        <br>
+
+        <form>
+
+        <span>
+            Nombre <input type="text" name="nombre" placeholder="Tu nombre" required>
+        </span>
+
+            <br>
+
+            <span>
+            Apellido <input type="text" name="apellido" placeholder="Tu apellido">
+        </span>
+
+            <br>
+
+            <span>
+            DNI <input type="number" name="dni" placeholder="Tu dni" required>
+        </span>
+
+            <br>
+
+            <span>
+            Edad <input type="number" name="edad" placeholder="Tu edad"
+                        min="0" max="140">
+        </span>
+
+            <br>
+
+            <span>
+            Dirreccion <textarea name="direccion" placeholder="Tu direccion"></textarea>
+        </span>
+
+            <br>
+
+            <label for="sexo">Sexo:</label>
+
+            <select name="sexo" id="sexo">
+                <option value="femenino">Femenino</option>
+                <option value="masculino">Masculino</option>
+            </select>
+            <br>
+
+            <p>
+                Idiomas que habla:
+            </p>
+            <input type="checkbox" id="ingles" name="ingles" value="ingles">
+            <label for="ingles">Ingles</label><br>
+
+            <input type="checkbox" id="italiano" name="italiano" value="italiano">
+            <label for="italiano">Italiano</label><br>
+
+            <input type="checkbox" id="japones" name="japones" value="japones">
+            <label for="japones">Japones</label><br>
+
+            <input type="checkbox" id="español" name="español" value="español">
+            <label for="español">Español</label><br>
+
+            <button id="indexFormulario">Enviar</button>
+        </form>
+
+    </section>
+
+
+
+    <footer>
+
+    </footer>
+</body>
+</html>

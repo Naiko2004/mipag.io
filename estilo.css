@@ -1,0 +1,54 @@
+body{
+    color: white;
+    background-color: black;
+    /*background-image: url(./Imagenes/barco.jpg);
+    background-size: 1380px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+
+/* comentario en css */
+
+.titulo1{
+    color: yellow;
+    background-color: rebeccapurple;
+}
+.sprht{
+    color: red;
+    background-color: #2d0000;
+    text-align: center;
+    text-shadow: 2px 1px 3px black;
+    font-family: "Rekha";
+}
+
+p{
+    color: darkviolet;
+    text-align: justify;
+}
+
+.parra2{
+    color: darkblue;
+    text-shadow: 2px 2px 1px blueviolet;
+    background-color: aqua;
+    text-align: justify;
+}
+
+#parra3{
+    color: darkgoldenrod;
+    background-color: firebrick;
+        text-align: right;
+}
+
+hr{
+    color: #670b1c;
+}
+
+img{
+    float: left;
+    padding: 10px;
+
+}
+
+div{
+    border: 10px dotted #2d0000;
+}
